@@ -8,4 +8,5 @@ Collect the bananas, avoid the ivy...
 HTML, CSS, JS.
 
 # Reflections
-React could have made this project easier.
+- As I expected, I think React would have made this a bit quicker to make but nonetheless it was good practice and fun to revisit older methods :) 
+- I made a mistake with some copy and pasting in my grid elements in the html, so its a bit messy. That's what I get for coding when I'm a bit sleepy!
