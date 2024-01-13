@@ -1,0 +1,67 @@
+/*           <div class="griditem gridborder gridbordertop"></div>
+                <div class="griditem gridborder gridborderbottom"></div>
+                <div class="griditem gridborder gridborderleft"></div>
+                <div class="griditem gridborder gridborderright"></div>
+                <div class="griditem griditem1"></div>
+                <div class="griditem griditem1"></div>
+                <div class="griditem griditem1"></div>
+                <div class="griditem griditem1"></div>
+                <div class="griditem griditem1"></div>
+                <div class="griditem griditem1"></div>
+                <div class="griditem griditem1"></div> */
+
+body {
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.header {
+    padding-bottom: 3rem;
+}
+.grid {
+    display: grid;
+    width: 600px;
+    grid-template-columns: repeat(15, 0.5fr 0.3fr);
+    border: 5px solid #141414;
+}
+
+.griditem {
+    min-width: 10px;
+    height: 10px;
+    color: transparent
+}
+
+.footer {
+    padding-top: 3rem;
+}
+
+
+.banana {
+    background-color: yellow;
+}
+
+.bananacollected {
+    background-color: transparent;
+}
+.poison {
+    background-color: rgb(28, 102, 32);
+
+}
+
+.start {
+    background: linear-gradient(45deg, rgb(63, 47, 151) 25%, white 25%, white 75%,  rgb(63, 47, 151) 75%, rgb(63, 47, 151)), 
+    linear-gradient(45deg, rgb(63, 47, 151) 25%, white 25%, white 75%, rgb(63, 47, 151) 75%,  rgb(63, 47, 151));
+}
+
+.finish {
+    background: linear-gradient(45deg, black 25%, white 25%, white 75%, black 75%, black), 
+    linear-gradient(45deg, black 25%, white 25%, white 75%, black 75%, black);
+}
+
+.black-text {
+    color: black;
+}
+
