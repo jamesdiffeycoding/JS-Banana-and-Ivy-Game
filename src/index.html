@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Little games</title>
     <link href="./output.css" rel="stylesheet">
     <link href="./custom.css" rel="stylesheet">
     <script src="./main.js" defer></script>
@@ -12,7 +12,11 @@
 <body>
     <div class="all-content">
         <div class="header">
-            <h1 class="text-3xl font-bold underline">Game grid!</h1>
+            <h1 class="text-3xl font-bold underline">Little games</h1>
+            <br>
+            
+            <h2>Banana and Ivy</h2>
+            <p>Collect all the bananas (yellow blocks) and avoid all the poison ivy (green blocks) and get to the finish to win the game!</p>
         </div>
         <main>
             <div class="grid">
@@ -21,8 +25,8 @@
                 <div class="griditem gridborder gridborderleft">.</div>
                 <div class="griditem gridborder gridborderright">.</div> -->
                 <!-- row1 -->
-                <div class="griditem griditemrow1 griditem1-1 poison">.</div>
-                <div class="griditem griditemrow1 griditem1-2 poison">.</div>
+                <div class="griditem griditemrow1 griditem1-1 start black-text">BEGIN</div>
+                <div class="griditem griditemrow1 griditem1-2 start">.</div>
                 <div class="griditem griditemrow1 griditem1-3 poison">.</div>
                 <div class="griditem griditemrow1 griditem1-4 poison  ">.</div>
                 <div class="griditem griditemrow1 griditem1-6 poison">.</div>
@@ -41,22 +45,12 @@
                 <div class="griditem griditemrow1 griditem1-1  poison ">.</div>
                 <div class="griditem griditemrow1 griditem1-1 poison ">.</div>
                 <div class="griditem griditemrow1 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow1 griditem1-1  poison">.</div>
-                <div class="griditem griditemrow1 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 poison  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 poison  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  poison ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  poison">.</div>
-                <div class="griditem griditemrow1 griditem1-30 poison">.</div>
 
 
                 <!-- row2 -->
-                <div class="griditem griditemrow2 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow2 griditem1-2  start black-text">start</div>
-                <div class="griditem griditemrow2 griditem1-3">.</div>
+                <div class="griditem griditemrow2 griditem1-1  start">.</div>
+                <div class="griditem griditemrow2 griditem1-2  start"></div>
+                <div class="griditem griditemrow2 griditem1-3 ">.</div>
                 <div class="griditem griditemrow2 griditem1-4 ">.</div>
                 <div class="griditem griditemrow2 griditem1-5">.</div>
                 <div class="griditem griditemrow2 griditem1-6 ">.</div>
@@ -67,55 +61,35 @@
                 <div class="griditem griditemrow2 griditem1-1  ">.</div>
                 <div class="griditem griditemrow2 griditem1-1 ">.</div>
                 <div class="griditem griditemrow2 griditem1-1 ">.</div>
-                <div class="griditem griditemrow2 griditem1-1  ">.</div>
+                <div class="griditem griditemrow2 griditem1-1  poison ">.</div>
                 <div class="griditem griditemrow2 griditem1-1 ">.</div>
-                <div class="griditem griditemrow2 griditem1-1  ">.</div>
+                <div class="griditem griditemrow2 griditem1-1  poison ">.</div>
                 <div class="griditem griditemrow2 griditem1-1 ">.</div>
-                <div class="griditem griditemrow2 griditem1-1  ">.</div>
+                <div class="griditem griditemrow2 griditem1-1 banana ">.</div>
                 <div class="griditem griditemrow2 griditem1-1 ">.</div>
                 <div class="griditem griditemrow2 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow1 griditem1-1  banana">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-30 poison">.</div>
 
                 <!-- row3 -->
                 <div class="griditem griditemrow3 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow3 griditem1-2">.</div>
+                <div class="griditem griditemrow3 griditem1-2 ">.</div>
                 <div class="griditem griditemrow3 griditem1-3">.</div>
-                <div class="griditem griditemrow3 griditem1-4 ">.</div>
-                <div class="griditem griditemrow3 griditem1-5">.</div>
-                <div class="griditem griditemrow3 griditem1-6 ">.</div>
-                <div class="griditem griditemrow3 griditem1-7">.</div>
-                <div class="griditem griditemrow3 griditem1-8 ">.</div>
-                <div class="griditem griditemrow3 griditem1-9">.</div>
+                <div class="griditem griditemrow3 griditem1-4  poison">.</div>
+                <div class="griditem griditemrow3 griditem1-5 poison">.</div>
+                <div class="griditem griditemrow3 griditem1-6 poison ">.</div>
+                <div class="griditem griditemrow3 griditem1-7 poison">.</div>
+                <div class="griditem griditemrow3 griditem1-8 poison ">.</div>
+                <div class="griditem griditemrow3 griditem1-9 poison">.</div>
+                <div class="griditem griditemrow3 griditem1-1 poison ">.</div>
+                <div class="griditem griditemrow3 griditem1-1 poison  ">.</div>
+                <div class="griditem griditemrow3 griditem1-1  poison">.</div>
                 <div class="griditem griditemrow3 griditem1-1 ">.</div>
-                <div class="griditem griditemrow3 griditem1-1  ">.</div>
-                <div class="griditem griditemrow3 griditem1-1 ">.</div>
-                <div class="griditem griditemrow3 griditem1-1 ">.</div>
-                <div class="griditem griditemrow3 griditem1-1  ">.</div>
+                <div class="griditem griditemrow3 griditem1-1  poison ">.</div>
                 <div class="griditem griditemrow3 griditem1-1 ">.</div>
                 <div class="griditem griditemrow3 griditem1-1  ">.</div>
                 <div class="griditem griditemrow3 griditem1-1 ">.</div>
                 <div class="griditem griditemrow3 griditem1-1  ">.</div>
                 <div class="griditem griditemrow3 griditem1-1 ">.</div>
                 <div class="griditem griditemrow3 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow1 griditem1-1  banana">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-30 poison">.</div>
 
 
                 <!-- row4 -->
@@ -130,40 +104,30 @@
                 <div class="griditem griditemrow4 griditem1-9">.</div>
                 <div class="griditem griditemrow4 griditem1-1 ">.</div>
                 <div class="griditem griditemrow4 griditem1-1  ">.</div>
-                <div class="griditem griditemrow4 griditem1-1 ">.</div>
-                <div class="griditem griditemrow4 griditem1-1 ">.</div>
-                <div class="griditem griditemrow4 griditem1-1  ">.</div>
+                <div class="griditem griditemrow4 griditem1-1  poison">.</div>
                 <div class="griditem griditemrow4 griditem1-1 ">.</div>
                 <div class="griditem griditemrow4 griditem1-1  ">.</div>
                 <div class="griditem griditemrow4 griditem1-1 ">.</div>
-                <div class="griditem griditemrow4 griditem1-1  ">.</div>
-                <div class="griditem griditemrow4 griditem1-1 ">.</div>
+                <div class="griditem griditemrow4 griditem1-1 poison  ">.</div>
+                <div class="griditem griditemrow4 griditem1-1  poisony">.</div>
+                <div class="griditem griditemrow4 griditem1-1  poison ">.</div>
+                <div class="griditem griditemrow4 griditem1-1 poison ">.</div>
                 <div class="griditem griditemrow4 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow1 griditem1-1  banana">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-30 poison">.</div>
 
 
 
                 <!-- row5 -->
                 <div class="griditem griditemrow5 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow5 griditem1-2">.</div>
-                <div class="griditem griditemrow5 griditem1-3">.</div>
-                <div class="griditem griditemrow5 griditem1-4 ">.</div>
-                <div class="griditem griditemrow5 griditem1-5">.</div>
-                <div class="griditem griditemrow5 griditem1-6 ">.</div>
-                <div class="griditem griditemrow5 griditem1-7">.</div>
+                <div class="griditem griditemrow5 griditem1-2 poison ">.</div>
+                <div class="griditem griditemrow5 griditem1-3  poison">.</div>
+                <div class="griditem griditemrow5 griditem1-4  ">.</div>
+                <div class="griditem griditemrow5 griditem1-5 poison">.</div>
+                <div class="griditem griditemrow5 griditem1-6 poison ">.</div>
+                <div class="griditem griditemrow5 griditem1-7 poison">.</div>
                 <div class="griditem griditemrow5 griditem1-8 ">.</div>
-                <div class="griditem griditemrow5 griditem1-9">.</div>
-                <div class="griditem griditemrow5 griditem1-1 ">.</div>
-                <div class="griditem griditemrow5 griditem1-1  ">.</div>
+                <div class="griditem griditemrow5 griditem1-9 poison">.</div>
+                <div class="griditem griditemrow5 griditem1-1 poison ">.</div>
+                <div class="griditem griditemrow5 griditem1-1 poison  ">.</div>
                 <div class="griditem griditemrow5 griditem1-1 ">.</div>
                 <div class="griditem griditemrow5 griditem1-1 ">.</div>
                 <div class="griditem griditemrow5 griditem1-1  ">.</div>
@@ -173,368 +137,6 @@
                 <div class="griditem griditemrow5 griditem1-1  ">.</div>
                 <div class="griditem griditemrow5 griditem1-1 ">.</div>
                 <div class="griditem griditemrow5 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow1 griditem1-1  banana">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-30 poison">.</div>
-
-
-                <!-- row6 -->
-                <div class="griditem griditemrow6 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow6 griditem1-2">.</div>
-                <div class="griditem griditemrow6 griditem1-3">.</div>
-                <div class="griditem griditemrow6 griditem1-4 ">.</div>
-                <div class="griditem griditemrow6 griditem1-5">.</div>
-                <div class="griditem griditemrow6 griditem1-6 ">.</div>
-                <div class="griditem griditemrow6 griditem1-7">.</div>
-                <div class="griditem griditemrow6 griditem1-8 ">.</div>
-                <div class="griditem griditemrow6 griditem1-9">.</div>
-                <div class="griditem griditemrow6 griditem1-1 ">.</div>
-                <div class="griditem griditemrow6 griditem1-1  ">.</div>
-                <div class="griditem griditemrow6 griditem1-1 ">.</div>
-                <div class="griditem griditemrow6 griditem1-1 ">.</div>
-                <div class="griditem griditemrow6 griditem1-1  ">.</div>
-                <div class="griditem griditemrow6 griditem1-1 ">.</div>
-                <div class="griditem griditemrow6 griditem1-1  ">.</div>
-                <div class="griditem griditemrow6 griditem1-1 ">.</div>
-                <div class="griditem griditemrow6 griditem1-1  ">.</div>
-                <div class="griditem griditemrow6 griditem1-1 ">.</div>
-                <div class="griditem griditemrow6 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow1 griditem1-1  banana">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-30 poison">.</div>
-
-                <!-- row7 -->
-                <div class="griditem griditemrow7 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow7 griditem1-2">.</div>
-                <div class="griditem griditemrow7 griditem1-3">.</div>
-                <div class="griditem griditemrow7 griditem1-4 ">.</div>
-                <div class="griditem griditemrow7 griditem1-5">.</div>
-                <div class="griditem griditemrow7 griditem1-6 ">.</div>
-                <div class="griditem griditemrow7 griditem1-7">.</div>
-                <div class="griditem griditemrow7 griditem1-8 ">.</div>
-                <div class="griditem griditemrow7 griditem1-9">.</div>
-                <div class="griditem griditemrow7 griditem1-1 ">.</div>
-                <div class="griditem griditemrow7 griditem1-1  ">.</div>
-                <div class="griditem griditemrow7 griditem1-1 ">.</div>
-                <div class="griditem griditemrow7 griditem1-1 ">.</div>
-                <div class="griditem griditemrow7 griditem1-1  ">.</div>
-                <div class="griditem griditemrow7 griditem1-1 ">.</div>
-                <div class="griditem griditemrow7 griditem1-1  ">.</div>
-                <div class="griditem griditemrow7 griditem1-1 ">.</div>
-                <div class="griditem griditemrow7 griditem1-1  ">.</div>
-                <div class="griditem griditemrow7 griditem1-1 ">.</div>
-                <div class="griditem griditemrow7 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow1 griditem1-1  banana">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-30 poison">.</div>
-
-                <!-- row8 -->
-                <div class="griditem griditemrow8 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow8 griditem1-2">.</div>
-                <div class="griditem griditemrow8 griditem1-3">.</div>
-                <div class="griditem griditemrow8 griditem1-4 ">.</div>
-                <div class="griditem griditemrow8 griditem1-5">.</div>
-                <div class="griditem griditemrow8 griditem1-6 ">.</div>
-                <div class="griditem griditemrow8 griditem1-7">.</div>
-                <div class="griditem griditemrow8 griditem1-8 ">.</div>
-                <div class="griditem griditemrow8 griditem1-9">.</div>
-                <div class="griditem griditemrow8 griditem1-1 ">.</div>
-                <div class="griditem griditemrow8 griditem1-1  ">.</div>
-                <div class="griditem griditemrow8 griditem1-1 ">.</div>
-                <div class="griditem griditemrow8 griditem1-1 ">.</div>
-                <div class="griditem griditemrow8 griditem1-1  ">.</div>
-                <div class="griditem griditemrow8 griditem1-1 ">.</div>
-                <div class="griditem griditemrow8 griditem1-1  ">.</div>
-                <div class="griditem griditemrow8 griditem1-1 ">.</div>
-                <div class="griditem griditemrow8 griditem1-1  ">.</div>
-                <div class="griditem griditemrow8 griditem1-1 ">.</div>
-                <div class="griditem griditemrow8 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow1 griditem1-1  banana">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-30 poison">.</div>
-
-                <!-- row9 -->
-                <div class="griditem griditemrow9 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow9 griditem1-2">.</div>
-                <div class="griditem griditemrow9 griditem1-3">.</div>
-                <div class="griditem griditemrow9 griditem1-4 ">.</div>
-                <div class="griditem griditemrow9 griditem1-5">.</div>
-                <div class="griditem griditemrow9 griditem1-6 ">.</div>
-                <div class="griditem griditemrow9 griditem1-7">.</div>
-                <div class="griditem griditemrow9 griditem1-8 ">.</div>
-                <div class="griditem griditemrow9 griditem1-9">.</div>
-                <div class="griditem griditemrow9 griditem1-1 ">.</div>
-                <div class="griditem griditemrow9 griditem1-1  ">.</div>
-                <div class="griditem griditemrow9 griditem1-1 ">.</div>
-                <div class="griditem griditemrow9 griditem1-1 ">.</div>
-                <div class="griditem griditemrow9 griditem1-1  ">.</div>
-                <div class="griditem griditemrow9 griditem1-1 ">.</div>
-                <div class="griditem griditemrow9 griditem1-1  ">.</div>
-                <div class="griditem griditemrow9 griditem1-1 ">.</div>
-                <div class="griditem griditemrow9 griditem1-1  ">.</div>
-                <div class="griditem griditemrow9 griditem1-1 ">.</div>
-                <div class="griditem griditemrow9 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow1 griditem1-1  banana">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-30 poison">.</div>
-
-                <!-- row10 -->
-                <div class="griditem griditemrow10 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow10 griditem1-2">.</div>
-                <div class="griditem griditemrow10 griditem1-3">.</div>
-                <div class="griditem griditemrow10 griditem1-4 ">.</div>
-                <div class="griditem griditemrow10 griditem1-5">.</div>
-                <div class="griditem griditemrow10 griditem1-6 ">.</div>
-                <div class="griditem griditemrow10 griditem1-7">.</div>
-                <div class="griditem griditemrow10 griditem1-8 ">.</div>
-                <div class="griditem griditemrow10 griditem1-9">.</div>
-                <div class="griditem griditemrow10 griditem1-1 ">.</div>
-                <div class="griditem griditemrow10 griditem1-1  ">.</div>
-                <div class="griditem griditemrow10 griditem1-1 ">.</div>
-                <div class="griditem griditemrow10 griditem1-1 ">.</div>
-                <div class="griditem griditemrow10 griditem1-1  ">.</div>
-                <div class="griditem griditemrow10 griditem1-1 ">.</div>
-                <div class="griditem griditemrow10 griditem1-1  ">.</div>
-                <div class="griditem griditemrow10 griditem1-1 ">.</div>
-                <div class="griditem griditemrow10 griditem1-1  ">.</div>
-                <div class="griditem griditemrow10 griditem1-1 ">.</div>
-                <div class="griditem griditemrow10 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow1 griditem1-1  banana">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-30 poison">.</div>
-
-                <!-- row11 -->
-                <div class="griditem griditemrow11 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow11 griditem1-2">.</div>
-                <div class="griditem griditemrow11 griditem1-3">.</div>
-                <div class="griditem griditemrow11 griditem1-4 ">.</div>
-                <div class="griditem griditemrow11 griditem1-5">.</div>
-                <div class="griditem griditemrow11 griditem1-6 ">.</div>
-                <div class="griditem griditemrow11 griditem1-7">.</div>
-                <div class="griditem griditemrow11 griditem1-8 ">.</div>
-                <div class="griditem griditemrow11 griditem1-9">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-1  ">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-1  ">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-1  ">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-1  ">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow11 griditem1-1  ">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-1  ">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-1  ">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-1  ">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-30 poison">.</div>
-
-                <!-- row12 -->
-                <div class="griditem griditemrow12 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow12 griditem1-2">.</div>
-                <div class="griditem griditemrow12 griditem1-3">.</div>
-                <div class="griditem griditemrow12 griditem1-4 ">.</div>
-                <div class="griditem griditemrow12 griditem1-5">.</div>
-                <div class="griditem griditemrow12 griditem1-6 ">.</div>
-                <div class="griditem griditemrow12 griditem1-7">.</div>
-                <div class="griditem griditemrow12 griditem1-8 ">.</div>
-                <div class="griditem griditemrow12 griditem1-9">.</div>
-                <div class="griditem griditemrow12 griditem1-1 ">.</div>
-                <div class="griditem griditemrow12 griditem1-1  ">.</div>
-                <div class="griditem griditemrow12 griditem1-1 ">.</div>
-                <div class="griditem griditemrow12 griditem1-1 ">.</div>
-                <div class="griditem griditemrow12 griditem1-1  ">.</div>
-                <div class="griditem griditemrow12 griditem1-1 ">.</div>
-                <div class="griditem griditemrow12 griditem1-1  ">.</div>
-                <div class="griditem griditemrow12 griditem1-1 ">.</div>
-                <div class="griditem griditemrow12 griditem1-1  ">.</div>
-                <div class="griditem griditemrow12 griditem1-1 ">.</div>
-                <div class="griditem griditemrow12 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow1 griditem1-1  banana">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-30 poison">.</div>
-
-                <!-- row13 -->
-                <div class="griditem griditemrow13 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow13 griditem1-2">.</div>
-                <div class="griditem griditemrow13 griditem1-3">.</div>
-                <div class="griditem griditemrow13 griditem1-4 ">.</div>
-                <div class="griditem griditemrow13 griditem1-5">.</div>
-                <div class="griditem griditemrow13 griditem1-6 ">.</div>
-                <div class="griditem griditemrow13 griditem1-7">.</div>
-                <div class="griditem griditemrow13 griditem1-8 ">.</div>
-                <div class="griditem griditemrow13 griditem1-9">.</div>
-                <div class="griditem griditemrow13 griditem1-1 ">.</div>
-                <div class="griditem griditemrow13 griditem1-1  ">.</div>
-                <div class="griditem griditemrow13 griditem1-1 ">.</div>
-                <div class="griditem griditemrow13 griditem1-1 ">.</div>
-                <div class="griditem griditemrow13 griditem1-1  ">.</div>
-                <div class="griditem griditemrow13 griditem1-1 ">.</div>
-                <div class="griditem griditemrow13 griditem1-1  ">.</div>
-                <div class="griditem griditemrow13 griditem1-1 ">.</div>
-                <div class="griditem griditemrow13 griditem1-1  ">.</div>
-                <div class="griditem griditemrow13 griditem1-1 ">.</div>
-                <div class="griditem griditemrow13 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow1 griditem1-1  banana">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-30 poison">.</div>
-
-                <!-- row14 -->
-                <div class="griditem griditemrow14 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow14 griditem1-2">.</div>
-                <div class="griditem griditemrow14 griditem1-3">.</div>
-                <div class="griditem griditemrow14 griditem1-4 ">.</div>
-                <div class="griditem griditemrow14 griditem1-5">.</div>
-                <div class="griditem griditemrow14 griditem1-6 ">.</div>
-                <div class="griditem griditemrow14 griditem1-7">.</div>
-                <div class="griditem griditemrow14 griditem1-8 ">.</div>
-                <div class="griditem griditemrow14 griditem1-9">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-30 poison">.</div>
-
-                <!-- row15 -->
-                <div class="griditem griditemrow15 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow15 griditem1-2">.</div>
-                <div class="griditem griditemrow15 griditem1-3">.</div>
-                <div class="griditem griditemrow15 griditem1-4 ">.</div>
-                <div class="griditem griditemrow15 griditem1-5">.</div>
-                <div class="griditem griditemrow15 griditem1-6 ">.</div>
-                <div class="griditem griditemrow15 griditem1-7">.</div>
-                <div class="griditem griditemrow15 griditem1-8 ">.</div>
-                <div class="griditem griditemrow15 griditem1-9">.</div>
-                <div class="griditem griditemrow15 griditem1-1 ">.</div>
-                <div class="griditem griditemrow15 griditem1-1  ">.</div>
-                <div class="griditem griditemrow15 griditem1-1 ">.</div>
-                <div class="griditem griditemrow15 griditem1-1 ">.</div>
-                <div class="griditem griditemrow15 griditem1-1  ">.</div>
-                <div class="griditem griditemrow15 griditem1-1 ">.</div>
-                <div class="griditem griditemrow15 griditem1-1  ">.</div>
-                <div class="griditem griditemrow15 griditem1-1 ">.</div>
-                <div class="griditem griditemrow15 griditem1-1  ">.</div>
-                <div class="griditem griditemrow15 griditem1-1 ">.</div>
-                <div class="griditem griditemrow15 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-30 poison">.</div>
-                           <!-- row1 -->
-                <div class="griditem griditemrow1 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow1 griditem1-2 banana">.</div>
-                <div class="griditem griditemrow1 griditem1-3">.</div>
-                <div class="griditem griditemrow1 griditem1-4 ">.</div>
-                <div class="griditem griditemrow1 griditem1-5">.</div>
-                <div class="griditem griditemrow1 griditem1-6 ">.</div>
-                <div class="griditem griditemrow1 griditem1-7">.</div>
-                <div class="griditem griditemrow1 griditem1-8 ">.</div>
-                <div class="griditem griditemrow1 griditem1-9">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  banana">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-1  ">.</div>
-                <div class="griditem griditemrow1 griditem1-1 ">.</div>
-                <div class="griditem griditemrow1 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-30 poison">.</div>
 
 
                 <!-- row2 -->
@@ -550,68 +152,48 @@
                 <div class="griditem griditemrow2 griditem1-1 ">.</div>
                 <div class="griditem griditemrow2 griditem1-1  ">.</div>
                 <div class="griditem griditemrow2 griditem1-1 ">.</div>
+                <div class="griditem griditemrow2 griditem1-1  poison">.</div>
+                <div class="griditem griditemrow2 griditem1-1  poison ">.</div>
                 <div class="griditem griditemrow2 griditem1-1 ">.</div>
                 <div class="griditem griditemrow2 griditem1-1  ">.</div>
                 <div class="griditem griditemrow2 griditem1-1 ">.</div>
-                <div class="griditem griditemrow2 griditem1-1  ">.</div>
-                <div class="griditem griditemrow2 griditem1-1 ">.</div>
-                <div class="griditem griditemrow2 griditem1-1  ">.</div>
+                <div class="griditem griditemrow2 griditem1-1  poison ">.</div>
                 <div class="griditem griditemrow2 griditem1-1 ">.</div>
                 <div class="griditem griditemrow2 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-30 poison">.</div>
 
                 <!-- row3 -->
                 <div class="griditem griditemrow3 griditem1-1 poison ">.</div>
                 <div class="griditem griditemrow3 griditem1-2">.</div>
-                <div class="griditem griditemrow3 griditem1-3">.</div>
+                <div class="griditem griditemrow3 griditem1-3 poison">.</div>
                 <div class="griditem griditemrow3 griditem1-4 ">.</div>
                 <div class="griditem griditemrow3 griditem1-5">.</div>
                 <div class="griditem griditemrow3 griditem1-6 ">.</div>
                 <div class="griditem griditemrow3 griditem1-7">.</div>
-                <div class="griditem griditemrow3 griditem1-8 ">.</div>
+                <div class="griditem griditemrow3 griditem1-8 poison">.</div>
                 <div class="griditem griditemrow3 griditem1-9">.</div>
-                <div class="griditem griditemrow3 griditem1-1 ">.</div>
+                <div class="griditem griditemrow3 griditem1-1 poison">.</div>
                 <div class="griditem griditemrow3 griditem1-1  ">.</div>
                 <div class="griditem griditemrow3 griditem1-1 ">.</div>
                 <div class="griditem griditemrow3 griditem1-1 ">.</div>
                 <div class="griditem griditemrow3 griditem1-1  ">.</div>
-                <div class="griditem griditemrow3 griditem1-1 ">.</div>
-                <div class="griditem griditemrow3 griditem1-1  ">.</div>
-                <div class="griditem griditemrow3 griditem1-1 ">.</div>
+                <div class="griditem griditemrow3 griditem1-1  poison">.</div>
+                <div class="griditem griditemrow3 griditem1-1  banana ">.</div>
+                <div class="griditem griditemrow3 griditem1-1  poison">.</div>
                 <div class="griditem griditemrow3 griditem1-1  ">.</div>
                 <div class="griditem griditemrow3 griditem1-1 ">.</div>
                 <div class="griditem griditemrow3 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-30 poison">.</div>
 
 
                 <!-- row4 -->
                 <div class="griditem griditemrow4 griditem1-1 poison ">.</div>
                 <div class="griditem griditemrow4 griditem1-2">.</div>
-                <div class="griditem griditemrow4 griditem1-3">.</div>
-                <div class="griditem griditemrow4 griditem1-4 ">.</div>
-                <div class="griditem griditemrow4 griditem1-5">.</div>
-                <div class="griditem griditemrow4 griditem1-6 ">.</div>
+                <div class="griditem griditemrow4 griditem1-3 poison">.</div>
+                <div class="griditem griditemrow4 griditem1-4 poison ">.</div>
+                <div class="griditem griditemrow4 griditem1-5 poison">.</div>
+                <div class="griditem griditemrow4 griditem1-6 banana ">.</div>
                 <div class="griditem griditemrow4 griditem1-7">.</div>
-                <div class="griditem griditemrow4 griditem1-8 ">.</div>
-                <div class="griditem griditemrow4 griditem1-9">.</div>
+                <div class="griditem griditemrow4 griditem1-8  ">.</div>
+                <div class="griditem griditemrow4 griditem1-9 ">.</div>
                 <div class="griditem griditemrow4 griditem1-1 ">.</div>
                 <div class="griditem griditemrow4 griditem1-1  ">.</div>
                 <div class="griditem griditemrow4 griditem1-1 ">.</div>
@@ -623,16 +205,6 @@
                 <div class="griditem griditemrow4 griditem1-1  ">.</div>
                 <div class="griditem griditemrow4 griditem1-1 ">.</div>
                 <div class="griditem griditemrow4 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-30 poison">.</div>
 
 
 
@@ -640,13 +212,13 @@
                 <div class="griditem griditemrow5 griditem1-1 poison ">.</div>
                 <div class="griditem griditemrow5 griditem1-2">.</div>
                 <div class="griditem griditemrow5 griditem1-3">.</div>
-                <div class="griditem griditemrow5 griditem1-4 ">.</div>
-                <div class="griditem griditemrow5 griditem1-5">.</div>
+                <div class="griditem griditemrow5 griditem1-4 poison ">.</div>
+                <div class="griditem griditemrow5 griditem1-5 poison">.</div>
                 <div class="griditem griditemrow5 griditem1-6 ">.</div>
                 <div class="griditem griditemrow5 griditem1-7">.</div>
                 <div class="griditem griditemrow5 griditem1-8 ">.</div>
                 <div class="griditem griditemrow5 griditem1-9">.</div>
-                <div class="griditem griditemrow5 griditem1-1 ">.</div>
+                <div class="griditem griditemrow5 griditem1-1 poison ">.</div>
                 <div class="griditem griditemrow5 griditem1-1  ">.</div>
                 <div class="griditem griditemrow5 griditem1-1 ">.</div>
                 <div class="griditem griditemrow5 griditem1-1 ">.</div>
@@ -657,54 +229,34 @@
                 <div class="griditem griditemrow5 griditem1-1  ">.</div>
                 <div class="griditem griditemrow5 griditem1-1 ">.</div>
                 <div class="griditem griditemrow5 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-30 poison">.</div>
 
 
                 <!-- row6 -->
                 <div class="griditem griditemrow6 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow6 griditem1-2">.</div>
-                <div class="griditem griditemrow6 griditem1-3">.</div>
+                <div class="griditem griditemrow6 griditem1-2 poison">.</div>
+                <div class="griditem griditemrow6 griditem1-3 banana">.</div>
                 <div class="griditem griditemrow6 griditem1-4 ">.</div>
-                <div class="griditem griditemrow6 griditem1-5">.</div>
+                <div class="griditem griditemrow6 griditem1-5 poison">.</div>
                 <div class="griditem griditemrow6 griditem1-6 ">.</div>
-                <div class="griditem griditemrow6 griditem1-7">.</div>
-                <div class="griditem griditemrow6 griditem1-8 ">.</div>
+                <div class="griditem griditemrow6 griditem1-7 poison">.</div>
+                <div class="griditem griditemrow6 griditem1-8 poison ">.</div>
                 <div class="griditem griditemrow6 griditem1-9">.</div>
                 <div class="griditem griditemrow6 griditem1-1 ">.</div>
                 <div class="griditem griditemrow6 griditem1-1  ">.</div>
                 <div class="griditem griditemrow6 griditem1-1 ">.</div>
-                <div class="griditem griditemrow6 griditem1-1 ">.</div>
+                <div class="griditem griditemrow6 griditem1-1  poison">.</div>
                 <div class="griditem griditemrow6 griditem1-1  ">.</div>
-                <div class="griditem griditemrow6 griditem1-1 ">.</div>
-                <div class="griditem griditemrow6 griditem1-1  ">.</div>
-                <div class="griditem griditemrow6 griditem1-1 ">.</div>
-                <div class="griditem griditemrow6 griditem1-1  ">.</div>
+                <div class="griditem griditemrow6 griditem1-1  poison">.</div>
+                <div class="griditem griditemrow6 griditem1-1  poison ">.</div>
+                <div class="griditem griditemrow6 griditem1-1  poison">.</div>
+                <div class="griditem griditemrow6 griditem1-1 poison  ">.</div>
                 <div class="griditem griditemrow6 griditem1-1 ">.</div>
                 <div class="griditem griditemrow6 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-30 poison">.</div>
 
                 <!-- row7 -->
                 <div class="griditem griditemrow7 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow7 griditem1-2">.</div>
-                <div class="griditem griditemrow7 griditem1-3">.</div>
+                <div class="griditem griditemrow7 griditem1-2 poison">.</div>
+                <div class="griditem griditemrow7 griditem1-3 poison">.</div>
                 <div class="griditem griditemrow7 griditem1-4 ">.</div>
                 <div class="griditem griditemrow7 griditem1-5">.</div>
                 <div class="griditem griditemrow7 griditem1-6 ">.</div>
@@ -722,22 +274,12 @@
                 <div class="griditem griditemrow7 griditem1-1  ">.</div>
                 <div class="griditem griditemrow7 griditem1-1 ">.</div>
                 <div class="griditem griditemrow7 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-30 poison">.</div>
 
                 <!-- row8 -->
                 <div class="griditem griditemrow8 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow8 griditem1-2">.</div>
-                <div class="griditem griditemrow8 griditem1-3">.</div>
-                <div class="griditem griditemrow8 griditem1-4 ">.</div>
+                <div class="griditem griditemrow8 griditem1-2  poison">.</div>
+                <div class="griditem griditemrow8 griditem1-3 poison">.</div>
+                <div class="griditem griditemrow8 griditem1-4 poison ">.</div>
                 <div class="griditem griditemrow8 griditem1-5">.</div>
                 <div class="griditem griditemrow8 griditem1-6 ">.</div>
                 <div class="griditem griditemrow8 griditem1-7">.</div>
@@ -746,35 +288,25 @@
                 <div class="griditem griditemrow8 griditem1-1 ">.</div>
                 <div class="griditem griditemrow8 griditem1-1  ">.</div>
                 <div class="griditem griditemrow8 griditem1-1 ">.</div>
-                <div class="griditem griditemrow8 griditem1-1 ">.</div>
-                <div class="griditem griditemrow8 griditem1-1  ">.</div>
-                <div class="griditem griditemrow8 griditem1-1 ">.</div>
-                <div class="griditem griditemrow8 griditem1-1  ">.</div>
-                <div class="griditem griditemrow8 griditem1-1 ">.</div>
+                <div class="griditem griditemrow8 griditem1-1  poison">.</div>
+                <div class="griditem griditemrow8 griditem1-1  poison ">.</div>
+                <div class="griditem griditemrow8 griditem1-1  poison">.</div>
+                <div class="griditem griditemrow8 griditem1-1 banana  ">.</div>
+                <div class="griditem griditemrow8 griditem1-1  poison">.</div>
                 <div class="griditem griditemrow8 griditem1-1  ">.</div>
                 <div class="griditem griditemrow8 griditem1-1 ">.</div>
                 <div class="griditem griditemrow8 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-30 poison">.</div>
 
                 <!-- row9 -->
-                <div class="griditem griditemrow9 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow9 griditem1-2">.</div>
-                <div class="griditem griditemrow9 griditem1-3">.</div>
-                <div class="griditem griditemrow9 griditem1-4 ">.</div>
-                <div class="griditem griditemrow9 griditem1-5">.</div>
-                <div class="griditem griditemrow9 griditem1-6 ">.</div>
-                <div class="griditem griditemrow9 griditem1-7">.</div>
-                <div class="griditem griditemrow9 griditem1-8 ">.</div>
-                <div class="griditem griditemrow9 griditem1-9">.</div>
+                <div class="griditem griditemrow5 griditem1-1 poison ">.</div>
+                <div class="griditem griditemrow5 griditem1-2 poison ">.</div>
+                <div class="griditem griditemrow5 griditem1-3 poison">.</div>
+                <div class="griditem griditemrow5 griditem1-4 poison ">.</div>
+                <div class="griditem griditemrow5 griditem1-5 poison">.</div>
+                <div class="griditem griditemrow5 griditem1-6 poison ">.</div>
+                <div class="griditem griditemrow5 griditem1-7 poison">.</div>
+                <div class="griditem griditemrow5 griditem1-8 ">.</div>
+                <div class="griditem griditemrow5 griditem1-9 poison">.</div>
                 <div class="griditem griditemrow9 griditem1-1 ">.</div>
                 <div class="griditem griditemrow9 griditem1-1  ">.</div>
                 <div class="griditem griditemrow9 griditem1-1 ">.</div>
@@ -786,16 +318,6 @@
                 <div class="griditem griditemrow9 griditem1-1  ">.</div>
                 <div class="griditem griditemrow9 griditem1-1 ">.</div>
                 <div class="griditem griditemrow9 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-30 poison">.</div>
 
                 <!-- row10 -->
                 <div class="griditem griditemrow10 griditem1-1 poison ">.</div>
@@ -810,92 +332,41 @@
                 <div class="griditem griditemrow10 griditem1-1 ">.</div>
                 <div class="griditem griditemrow10 griditem1-1  ">.</div>
                 <div class="griditem griditemrow10 griditem1-1 ">.</div>
-                <div class="griditem griditemrow10 griditem1-1 ">.</div>
+                <div class="griditem griditemrow10 griditem1-1  poison">.</div>
                 <div class="griditem griditemrow10 griditem1-1  ">.</div>
-                <div class="griditem griditemrow10 griditem1-1 ">.</div>
+                <div class="griditem griditemrow10 griditem1-1  poison">.</div>
                 <div class="griditem griditemrow10 griditem1-1  ">.</div>
-                <div class="griditem griditemrow10 griditem1-1 ">.</div>
+                <div class="griditem griditemrow10 griditem1-1  poison">.</div>
                 <div class="griditem griditemrow10 griditem1-1  ">.</div>
-                <div class="griditem griditemrow10 griditem1-1 ">.</div>
+                <div class="griditem griditemrow10 griditem1-1  poison">.</div>
                 <div class="griditem griditemrow10 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-30 poison">.</div>
 
                 <!-- row11 -->
                 <div class="griditem griditemrow11 griditem1-1 poison ">.</div>
                 <div class="griditem griditemrow11 griditem1-2">.</div>
-                <div class="griditem griditemrow11 griditem1-3">.</div>
-                <div class="griditem griditemrow11 griditem1-4 ">.</div>
+                <div class="griditem griditemrow11 griditem1-3 poison">.</div>
+                <div class="griditem griditemrow11 griditem1-4 poison ">.</div>
                 <div class="griditem griditemrow11 griditem1-5">.</div>
-                <div class="griditem griditemrow11 griditem1-6 ">.</div>
-                <div class="griditem griditemrow11 griditem1-7">.</div>
-                <div class="griditem griditemrow11 griditem1-8 ">.</div>
-                <div class="griditem griditemrow11 griditem1-9">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
+                <div class="griditem griditemrow5 griditem1-1 poison ">.</div>
+                <div class="griditem griditemrow5 griditem1-2 poison ">.</div>
+                <div class="griditem griditemrow5 griditem1-3 poison">.</div>
+                <div class="griditem griditemrow5 griditem1-4 poison ">.</div>
+                <div class="griditem griditemrow5 griditem1-5 poison">.</div>
+                <div class="griditem griditemrow5 griditem1-6  ">.</div>
+                <div class="griditem griditemrow5 griditem1-7 poison">.</div>
+                <div class="griditem griditemrow5 griditem1-9 poison">.</div>
                 <div class="griditem griditemrow11 griditem1-1  ">.</div>
                 <div class="griditem griditemrow11 griditem1-1 ">.</div>
+                <div class="griditem griditemrow11 griditem1-1   ">.</div>
                 <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-1  ">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-1  ">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-1  ">.</div>
+                <div class="griditem griditemrow11 griditem1-1   ">.</div>
                 <div class="griditem griditemrow11 griditem1-1 ">.</div>
                 <div class="griditem griditemrow11 griditem1-30 poison">.</div>
-                <div class="griditem griditemrow11 griditem1-1  ">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-1  ">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-1  ">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-1  ">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-20 poison">.</div>
 
-                <!-- row12 -->
-                <div class="griditem griditemrow12 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow12 griditem1-2">.</div>
-                <div class="griditem griditemrow12 griditem1-3">.</div>
-                <div class="griditem griditemrow12 griditem1-4 ">.</div>
-                <div class="griditem griditemrow12 griditem1-5">.</div>
-                <div class="griditem griditemrow12 griditem1-6 ">.</div>
-                <div class="griditem griditemrow12 griditem1-7">.</div>
-                <div class="griditem griditemrow12 griditem1-8 ">.</div>
-                <div class="griditem griditemrow12 griditem1-9">.</div>
-                <div class="griditem griditemrow12 griditem1-1 ">.</div>
-                <div class="griditem griditemrow12 griditem1-1  ">.</div>
-                <div class="griditem griditemrow12 griditem1-1 ">.</div>
-                <div class="griditem griditemrow12 griditem1-1  ">.</div>
-                <div class="griditem griditemrow12 griditem1-1  ">.</div>
-                <div class="griditem griditemrow12 griditem1-1 ">.</div>
-                <div class="griditem griditemrow12 griditem1-1  ">.</div>
-                <div class="griditem griditemrow12 griditem1-1 ">.</div>
-                <div class="griditem griditemrow12 griditem1-1  ">.</div>
-                <div class="griditem griditemrow12 griditem1-1 ">.</div>
-                <div class="griditem griditemrow12 griditem1-30 poison">.</div>               
-                <div class="griditem griditemrow12 griditem1-1  ">.</div>
-                <div class="griditem griditemrow12 griditem1-1 ">.</div>
-                <div class="griditem griditemrow12 griditem1-1  ">.</div>
-                <div class="griditem griditemrow12 griditem1-1  ">.</div>
-                <div class="griditem griditemrow12 griditem1-1 ">.</div>
-                <div class="griditem griditemrow12 griditem1-1  ">.</div>
-                <div class="griditem griditemrow12 griditem1-1 ">.</div>
-                <div class="griditem griditemrow12 griditem1-1  ">.</div>
-                <div class="griditem griditemrow12 griditem1-1 ">.</div>
-                <div class="griditem griditemrow12 griditem1-20 poison">.</div>
                 <!-- row13 -->
                 <div class="griditem griditemrow13 griditem1-1 poison ">.</div>
                 <div class="griditem griditemrow13 griditem1-2">.</div>
-                <div class="griditem griditemrow13 griditem1-3">.</div>
+                <div class="griditem griditemrow13 griditem1-3 poison">.</div>
                 <div class="griditem griditemrow13 griditem1-4 ">.</div>
                 <div class="griditem griditemrow13 griditem1-5">.</div>
                 <div class="griditem griditemrow13 griditem1-6 ">.</div>
@@ -909,25 +380,36 @@
                 <div class="griditem griditemrow13 griditem1-1  ">.</div>
                 <div class="griditem griditemrow13 griditem1-1 ">.</div>
                 <div class="griditem griditemrow13 griditem1-1  ">.</div>
-                <div class="griditem griditemrow13 griditem1-1  finish black-text"">.</div>
+                <div class="griditem griditemrow13 griditem1-1  finish black-text">FIN</div>
                 <div class="griditem griditemrow13 griditem1-1  ">.</div>
                 <div class="griditem griditemrow13 griditem1-1 ">.</div>
                 <div class="griditem griditemrow13 griditem1-30 poison">.</div>
-                <div class="griditem griditemrow12 griditem1-1  ">.</div>
+                <!-- row12 -->
+                <div class="griditem griditemrow12 griditem1-1 poison ">.</div>
+                <div class="griditem griditemrow12 griditem1-2">.</div>
+                <div class="griditem griditemrow12 griditem1-3 poison">.</div>
+                <div class="griditem griditemrow12 griditem1-4 ">.</div>
+                <div class="griditem griditemrow12 griditem1-5">.</div>
+                <div class="griditem griditemrow12 griditem1-6 ">.</div>
+                <div class="griditem griditemrow12 griditem1-7">.</div>
+                <div class="griditem griditemrow12 griditem1-8 ">.</div>
+                <div class="griditem griditemrow5 griditem1-1 poison ">.</div>
+                <div class="griditem griditemrow5 griditem1-1 poison ">.</div>
+                <div class="griditem griditemrow5 griditem1-2 poison ">.</div>
+                <div class="griditem griditemrow5 griditem1-3 poison">.</div>
+                <div class="griditem griditemrow5 griditem1-4 poison ">.</div>
+                <div class="griditem griditemrow5 griditem1-5 poison">.</div>
+                <div class="griditem griditemrow5 griditem1-6 poison ">.</div>
+                <div class="griditem griditemrow5 griditem1-7 poison">.</div>
+                <div class="griditem griditemrow5 griditem1-8 ">.</div>
+                <div class="griditem griditemrow5 griditem1-9 poison">.</div>
                 <div class="griditem griditemrow12 griditem1-1 ">.</div>
-                <div class="griditem griditemrow12 griditem1-1  ">.</div>
-                <div class="griditem griditemrow12 griditem1-1  ">.</div>
-                <div class="griditem griditemrow12 griditem1-1 ">.</div>
-                <div class="griditem griditemrow12 griditem1-1  ">.</div>
-                <div class="griditem griditemrow12 griditem1-1 ">.</div>
-                <div class="griditem griditemrow12 griditem1-1  ">.</div>
-                <div class="griditem griditemrow12 griditem1-1 ">.</div>
-                <div class="griditem griditemrow12 griditem1-20 poison">.</div>
-
+                <div class="griditem griditemrow12 griditem1-30 poison">.</div>
+                
                 <!-- row14 -->
                 <div class="griditem griditemrow14 griditem1-1  poison ">.</div>
-                <div class="griditem griditemrow14 griditem1-2">.</div>
-                <div class="griditem griditemrow14 griditem1-3">.</div>
+                <div class="griditem griditemrow14 griditem1-2 banana">.</div>
+                <div class="griditem griditemrow14 griditem1-3  poison">.</div>
                 <div class="griditem griditemrow14 griditem1-4 ">.</div>
                 <div class="griditem griditemrow14 griditem1-5">.</div>
                 <div class="griditem griditemrow14 griditem1-6 ">.</div>
@@ -935,26 +417,16 @@
                 <div class="griditem griditemrow14 griditem1-8 ">.</div>
                 <div class="griditem griditemrow14 griditem1-9">.</div>
                 <div class="griditem griditemrow14 griditem1-1 ">.</div>
+                <div class="griditem griditemrow14 griditem1-1 banana ">.</div>
+                <div class="griditem griditemrow14 griditem1-1 ">.</div>
+                <div class="griditem griditemrow14 griditem1-1 poison">.</div>
                 <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 ">.</div>
+                <div class="griditem griditemrow14 griditem1-1 banana">.</div>
                 <div class="griditem griditemrow14 griditem1-1  ">.</div>
                 <div class="griditem griditemrow14 griditem1-1 ">.</div>
                 <div class="griditem griditemrow14 griditem1-1  ">.</div>
                 <div class="griditem griditemrow14 griditem1-1 ">.</div>
                 <div class="griditem griditemrow14 griditem1-20 poison">.</div>
-                <div class="griditem griditemrow11 griditem1-1  ">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-1  ">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-1  ">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-1  ">.</div>
-                <div class="griditem griditemrow11 griditem1-1 ">.</div>
-                <div class="griditem griditemrow11 griditem1-30 poison">.</div>
 
                 <!-- row15 -->
                 <div class="griditem griditemrow15 griditem1-1 poison ">.</div>
@@ -976,27 +448,20 @@
                 <div class="griditem griditemrow15 griditem1-1  poison">.</div>
                 <div class="griditem griditemrow15 griditem1-1  poison ">.</div>
                 <div class="griditem griditemrow15 griditem1-1  poison">.</div>
-                <div class="griditem griditemrow15 griditem1-20 poison">.</div>               
-                <div class="griditem griditemrow14 griditem1-1  poison ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  poison">.</div>
-                <div class="griditem griditemrow14 griditem1-1 poison  ">.</div>
-                <div class="griditem griditemrow14 griditem1-1 poison ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  poison ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  poison">.</div>
-                <div class="griditem griditemrow14 griditem1-1  poison ">.</div>
-                <div class="griditem griditemrow14 griditem1-1  poison">.</div>
-                <div class="griditem griditemrow14 griditem1-30 poison ">.</div>
+                <div class="griditem griditemrow15 griditem1-20 poison">.</div>           
 
 
             </div>
 
             </div>
             </main>  
+        </div>
         <div class="footer">
-            <p>Footer</p>
+            <p>
+    
+                <strong>Score: </strong> Just <span id="bananacount">8</span> <span id="bananacountnoun">bananas</span> left to go!
+            </p>
             </div>      
         
-    </div>
-</body>
+    </body>
 </html>
