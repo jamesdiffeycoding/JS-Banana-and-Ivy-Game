@@ -20,7 +20,7 @@ start.addEventListener("mouseover", () => {
     firstPlay = false;
 
 })
-finish.addEventListener("mouseover", () => {if (score > 10) {
+finish.addEventListener("mouseover", () => {if (score > 7) {
     alert("You win!")
     resetGame();
 }})
