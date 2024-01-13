@@ -1,1 +1,3 @@
-# JS-maze-mouse-game
+# JS-Banana and Ivy mouse maze game
+
+Collect the bananas, avoid the ivy...
