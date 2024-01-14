@@ -66,6 +66,7 @@ h2 {
     padding-inline: 1rem;
     background-color: rgb(65, 125, 68);
     border-radius: 15px;
+    width: 250px;
 }
 #bananacount {
     color: black;
@@ -133,4 +134,11 @@ opacity: 098;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 1rem;
+}
+
+.score-name {
+    text-align: left;
+}
+.score-time {
+    text-align: center;
 }
