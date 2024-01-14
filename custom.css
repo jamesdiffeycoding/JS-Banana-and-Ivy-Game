@@ -20,6 +20,9 @@ body {
     height: 100vh;
     color: white;
     padding-inline: 5%;
+    width: 800px;
+    margin: auto;
+
 }
 
 p, h3, h4 {
@@ -43,7 +46,6 @@ h2 {
 }
 .grid {
     display: grid;
-    width: 800px;
     grid-template-columns: repeat(20, 1fr);
     border: 5px solid #141414;
     background-image: url('./forest.jpg');
