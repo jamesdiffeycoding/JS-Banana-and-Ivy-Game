@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Little games</title>
-    <link href="./output.css" rel="stylesheet">
     <link href="./custom.css" rel="stylesheet">
     <script src="./main.js" defer></script>
 
@@ -13,7 +12,10 @@
     <div class="all-content">
         <div class="header">            
             <h2>Banana and Ivy Game</h2>
-            <p>Collect all the bananas (yellow blocks) and avoid all the poison ivy (green blocks) and get to the finish to win the game!</p>
+            <h3>Requirements</h3>
+            <p>- Mouse access</p>
+            <h3>Instructions</h3>
+            <p>- Move your mouse around the grid. Collect all the bananas (yellow blocks) and avoid all the poison ivy (green blocks) and get to the finish to win the game!</p>
         </div>
         <main>
             <div class="grid">
@@ -23,7 +25,6 @@
                 <div class="griditem gridborder gridborderright">.</div> -->
                 <!-- row1 -->
                 <div class="griditem griditemrow1 griditem1-1 start black-text">BEGIN</div>
-                <div class="griditem griditemrow1 griditem1-2 start">.</div>
                 <div class="griditem griditemrow1 griditem1-3 poison">.</div>
                 <div class="griditem griditemrow1 griditem1-4 poison  ">.</div>
                 <div class="griditem griditemrow1 griditem1-6 poison">.</div>
@@ -45,8 +46,6 @@
 
 
                 <!-- row2 -->
-                <div class="griditem griditemrow2 griditem1-1  start">.</div>
-                <div class="griditem griditemrow2 griditem1-2  start"></div>
                 <div class="griditem griditemrow2 griditem1-3 ">.</div>
                 <div class="griditem griditemrow2 griditem1-4 ">.</div>
                 <div class="griditem griditemrow2 griditem1-5">.</div>
@@ -378,7 +377,6 @@
                 <div class="griditem griditemrow13 griditem1-1 ">.</div>
                 <div class="griditem griditemrow13 griditem1-1  ">.</div>
                 <div class="griditem griditemrow13 griditem1-1  finish black-text">FIN</div>
-                <div class="griditem griditemrow13 griditem1-1  ">.</div>
                 <div class="griditem griditemrow13 griditem1-1 ">.</div>
                 <div class="griditem griditemrow13 griditem1-30 poison">.</div>
                 <!-- row12 -->
@@ -398,8 +396,6 @@
                 <div class="griditem griditemrow5 griditem1-5 poison">.</div>
                 <div class="griditem griditemrow5 griditem1-6 poison ">.</div>
                 <div class="griditem griditemrow5 griditem1-7 poison">.</div>
-                <div class="griditem griditemrow5 griditem1-8 ">.</div>
-                <div class="griditem griditemrow5 griditem1-9 poison">.</div>
                 <div class="griditem griditemrow12 griditem1-1 ">.</div>
                 <div class="griditem griditemrow12 griditem1-30 poison">.</div>
                 
@@ -454,11 +450,19 @@
             </main>  
         </div>
         <div class="footer">
-            <p>
-    
-                <strong>Score: </strong> Just <span id="bananacount">8</span> <span id="bananacountnoun">bananas</span> left to go!
-            </p>
-            </div>      
-        
+            <div class="footer-item">
+                <h3>
+                    Progress Tracker: 
+                </h3>
+                <p>
+                    <span id="bananacount">8</span> <span id="bananacountnoun">bananas</span> left to go!
+                </p>
+                <p>Timer: <span id="timer">0</span> seconds</p>
+
+            </div>
+            <div class="footer-item">
+                <h3>Leaderboard</h3>
+            </div>
+        </div>
     </body>
 </html>
