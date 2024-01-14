@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Banana and Ivy mouse maze game",
   "main": "main.js",
+  "type": "module",
   "dependencies": {
     "ansi-regex": "^6.0.1",
     "ansi-styles": "^6.2.1",
@@ -56,6 +57,7 @@
     "path-key": "^3.1.1",
     "path-parse": "^1.0.7",
     "path-scurry": "^1.10.1",
+    "pg": "^8.11.3",
     "picocolors": "^1.0.0",
     "picomatch": "^2.3.1",
     "pify": "^2.3.0",
@@ -94,7 +96,6 @@
     "wrap-ansi-cjs": "^7.0.0",
     "yaml": "^2.3.4"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

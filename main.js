@@ -1,8 +1,14 @@
-console.log("main.js file running")
 
 /* EXAMPLE QUERY
  INSERT INTO bananaandivyleaderboard (username, time_in_seconds, date)
  VALUES ('James', '20', '2024-01-01')
+
+
+ CONNECTION STRING
+ postgres://tbbpmtdd:47fjbPHTVKUlEMDJq1Csn4-yP5HaqrUf@horton.db.elephantsql.com/tbbpmtdd 
+pw: 47fjbPHTVKUlEMDJq1Csn4-yP5HaqrUf 
+
+api: b00c5ed4-17c6-4223-8108-6b2c8d15ee65 
 
  */
 
@@ -17,8 +23,7 @@ const finish = document.querySelector(".finish")
 const timer = document.querySelector("#timer")
 
 // event listeners
-// -- prevent right clicking in grid
-grid.addEventListener("contextmenu", () => {event.preventDefault()})
+grid.addEventListener("contextmenu", () => {event.preventDefault()}) // -- prevent right clicking in grid
 
 let clock=0;
 let firstPlay = true;
@@ -40,6 +45,16 @@ startblock.addEventListener("mouseover", () => {
 finish.addEventListener("mouseover", () => {if (score > 7) {
     alert("You win!")
     resetGame();
+    let tier = "none";
+    if (clock > 61) {tier="You got there safely. Nice work."};
+    if (clock <61 && clock > 45) {tier="Slow and steady. You got the job done!"};
+    if (clock <46 && clock > 30) {tier="Nice showing."};
+    if (clock <31 && clock >25) {tier="Very impressive."};
+    if (clock <26) {tier = "You are elite"};
+    if (clock <15) {tier = "You are SUSPICIOUSLY elite"};
+
+
+    alert(`You got all 8 bananas in ${clock} seconds! ${tier}`)
 }})
 let score = 0
 bananas.forEach(banana => {

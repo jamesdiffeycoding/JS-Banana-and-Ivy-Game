@@ -123,3 +123,14 @@ opacity: 098;
     font-size: 20px;
 
 }
+
+.score-heading {
+    font-weight: bold;
+    padding-bottom: 1rem;
+    color: black;
+}
+.score-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 1rem;
+}
