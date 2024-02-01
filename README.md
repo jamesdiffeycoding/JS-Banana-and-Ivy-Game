@@ -18,9 +18,6 @@ Creating a game that is functional, involves a timer feature, and displays your 
 ## What I learned
 I learned about tying event listeners to many HTML elements that have the same class using the 'forEach' method, as well as considering user experience. I also learned it was possible to disable right-clicking (a common way of 'cheating' these sorts of games to bypass the ivy-collision).
 
-## Built with
-HTML, CSS, JavaScript (lots of event listeners!)
-
 ## What's next?
 For the next game I make, I'd like to learn more about unit collision between two html elements (other than the cursor). For example, in a football game if a player runs into the ball.
 
